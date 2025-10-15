@@ -9,3 +9,35 @@
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
 }
+
+.control {
+    border: #8a8a8a 2px solid;
+    margin-left: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.control:hover {
+    background: #FDFDFC;
+}
+
+.option {
+    margin-left: 10px;
+}
+
+.option input {
+    margin-left: 7px;
+    border: #8a8a8a 1px solid;
+    width: 100px;
+}
+
+.inactive-control {
+    color: #595858;
+    border-color: #595858;
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+    cursor: not-allowed;
+}
