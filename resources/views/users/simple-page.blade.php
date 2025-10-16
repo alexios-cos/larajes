@@ -21,7 +21,7 @@
 </head>
 <body class="bg-[#FDFDFC] dark:bg-[#0a0a0a] text-[#8a8a8a] flex items-center lg:justify-center min-h-screen flex-col">
     <div class="w-[90%] flex row min-h-300 justify-around">
-        <div class="shrink-0">
+        <div class="shrink-0 w-[50%]">
             <div id="list" class="overflow-auto max-h-250">
                 <!-- User data will be added here -->
             </div>
@@ -41,7 +41,7 @@
                 </div>
             </div>
         </div>
-        <form id="form" class="items-center lg:justify-center ml-10 w-full">
+        <form id="form" class="items-center lg:justify-center ml-10 w-[50%]">
             <div class="text-xl">Add new user</div>
             <button type="submit" class="mt-5 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">
                 Submit
